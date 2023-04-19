@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Epilogue", sans-serif;
+}
+
+.header-content {
+  padding: 0 40px;
+  color: #fff;
+  background-color: #2B2B2B;
+  width: 100%;
+  height: 80px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-content-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+.header-content-left .nav-links {
+  width: 80%;
+}
+.header-content-left .nav-links ul {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  padding: 160px 220px;
+}
+.container .intro-section {
+  padding-bottom: 64px;
+}
+.container .intro-section-title {
+  padding-bottom: 30px;
+}
+.container .intro-section-title h2 {
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+.container .intro-section-blog-img {
+  height: 450px;
+  background-color: #BDBDBD;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.container .intro-section-blog-details .intro-section-blog-category {
+  font-size: 13px;
+  font-weight: 500;
+  width: 95px;
+  height: 32px;
+  border: 1px solid #63a2e1;
+  color: #63a2e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+}
+.container .intro-section-blog-details-full {
+  padding: 15px 0;
+}
+.container .intro-section-blog-details-full small {
+  padding: 0 10px;
+  color: #BDBDBD;
+  font-weight: 400;
+}
+.container .intro-section-blog-details-full #name-text {
+  padding-left: 0;
+}
+.container .intro-section-blog-details-full #title-text {
+  border-left: 1px solid #BDBDBD;
+  border-right: 1px solid #BDBDBD;
+}
+.container .intro-section-blog-details-date {
+  color: #BDBDBD;
+  padding-bottom: 20px;
+}
+.container .intro-section-blog-content-title {
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+.container .intro-section-blog-content-main {
+  padding-bottom: 10px;
+}
+.container .intro-section-blog-content-main p {
+  padding-right: 200px;
+  font-weight: 400;
+  color: #BDBDBD;
+  line-height: 24px;
+}
+.container .intro-section a {
+  color: #63a2e1;
+}
+.container .same-blogs-section {
+  padding-bottom: 100px;
+  display: flex;
+  gap: 60px;
+}
+.container .same-blogs-section .same-blogs-section-left .blog-post-card-img, .container .same-blogs-section .same-blogs-section-right .blog-post-card-img {
+  width: 470px;
+  height: 300px;
+  background-color: #BDBDBD;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.container .same-blogs-section .same-blogs-section-left .blog-post-card-details .blog-post-card-category, .container .same-blogs-section .same-blogs-section-right .blog-post-card-details .blog-post-card-category {
+  font-size: 13px;
+  font-weight: 500;
+  width: 95px;
+  height: 32px;
+  border: 1px solid #63a2e1;
+  color: #63a2e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+}
+.container .same-blogs-section .same-blogs-section-left .blog-post-card-details-full, .container .same-blogs-section .same-blogs-section-right .blog-post-card-details-full {
+  padding: 15px 0;
+}
+.container .same-blogs-section .same-blogs-section-left .blog-post-card-details-full small, .container .same-blogs-section .same-blogs-section-right .blog-post-card-details-full small {
+  padding: 0 10px;
+  color: #BDBDBD;
+  font-weight: 400;
+}
+.container .same-blogs-section .same-blogs-section-left .blog-post-card-details-full #name-text, .container .same-blogs-section .same-blogs-section-right .blog-post-card-details-full #name-text {
+  padding-left: 0;
+}
+.container .same-blogs-section .same-blogs-section-left .blog-post-card-details-full #title-text, .container .same-blogs-section .same-blogs-section-right .blog-post-card-details-full #title-text {
+  border-left: 1px solid #BDBDBD;
+  border-right: 1px solid #BDBDBD;
+}
+.container .same-blogs-section .same-blogs-section-left .blog-post-card-details .blog-post-card-content-title h2, .container .same-blogs-section .same-blogs-section-right .blog-post-card-details .blog-post-card-content-title h2 {
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}/*# sourceMappingURL=style.css.map */
